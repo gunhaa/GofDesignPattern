@@ -1,8 +1,8 @@
-package Iterator;
+package iterator;
 
 import java.util.Iterator;
 
-public class IteratorExecuter {
+public class IteratorExecutor {
     public static void main(String[] args) {
         BookShelf bookShelf = new BookShelf(4);
         bookShelf.appendBook(new Book("Bible"));
